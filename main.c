@@ -8,7 +8,7 @@ int main(){
 	FILE *fd;
 	int choose;
 	char *file_name;
-	if ((fd = create_file(file_name)) == NULL){
+	if ((fd = create_file(&file_name)) == NULL){
 		printf("Error in main function.");
 		printf("Cant assigned fd from create_file.");
 	}
